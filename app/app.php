@@ -1,5 +1,7 @@
 <?php 
 
+date_default_timezone_set('UTC');
+
 // define all the stuff we need to load
 $config    = __DIR__ . '/../config/config.php';
 $theme     = __DIR__ . '/../config/styles.css';
