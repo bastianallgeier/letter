@@ -2,7 +2,7 @@
 
 Letter is a simple, highly customizable tool to create letters in your browser. 
 
-![Letter Logo](https://bastianallgeier.com/projects/letter/app/favicon.png)
+[![Letter Screenshot](https://bastianallgeier.com/projects/letter/screenshot.png)](https://bastianallgeier.com/projects/letter/)
 
 Instead of messing around in Word, Pages or even Indesign, you can write your letters in the browser, export them as HTML or PDF (via Apple Preview). 
 
