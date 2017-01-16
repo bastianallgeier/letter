@@ -27,17 +27,28 @@ php -S localhost:8888
 1. Download Letter and move it to the htdocs folder of your MAMP installation. 
 2. Open http://localhost/letter in your browser
 
+## How to…
+
+### Save Letters
+You can save your letters by simply using the browser save dialog. Make sure to choose "Save HTML only" as the export option. You will get a nice and clean HTML file of your letter, which can be kept for later at any place you prefer. 
+
+### Print Letters
+Use your browser's print dialog to print your finished Letters. Make sure to set "No margins" in your printing dialog to avoid broken dimensions of your document. 
+
+### Export PDFs
+On macOS you can use your browser's print dialog to export your Letter to PDF via Apple Preview. As long as you get the printing settings correct, the PDF will look good too. 
+
 ## Setup
 
 ### Configuration 
 
-You can setup the global content of your Letter in config/config.php. Adjust the settings and add your own data there. 
+You can setup the global content of your Letter in `config/config.php`. Adjust the settings and add your own data there. 
 
 #### Available options
 
 ```php
 return [
-  'title'      => 'Letter',
+  'title'      => 'Letter',
   'dateFormat' => 'd. F Y',
   'name'       => 'John Doe',
   'street'     => 'Infinite Loop 12',
@@ -74,15 +85,15 @@ return [
 
 ### Custom stylesheet
 
-If you want to adjust Letter's custom styles, go to config/styles.css and add your own CSS there. Check out Letter's custom HTML tags in the browser for further information what to adjust. 
+If you want to adjust Letter's custom styles, go to `config/styles.css` and add your own CSS there. Check out Letter's custom HTML tags in the browser for further information what to adjust. 
 
 ### Signature
 
-Replace Letter's example signature.png in config/signature.png with your own, to load it automatically
+Replace Letter's example signature.png in `config/signature.png` with your own, to load it automatically
 
 ### Custom template
 
-If you want to further modify your Letter, you can copy the default template file from app/template.php to config/template.php to overwrite Letter's default HTML.
+If you want to further modify your Letter, you can copy the default template file from `app/template.php` to `config/template.php` to overwrite Letter's default HTML.
 
 ## Requirements
 
