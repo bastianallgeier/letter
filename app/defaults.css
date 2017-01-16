@@ -6,6 +6,10 @@
   line-height: 1.5;
   box-sizing: border-box;
 }
+::selection {
+  background: #000;
+  color: #fff;
+}
 @page {
   margin: 0;
 }
@@ -101,9 +105,13 @@ signature {
   display: block;
   padding-top: 14pt;
 }
+signature closing {
+  display: block;  
+}
 signature name {
   display: block;
   margin-bottom: 14pt;
+  font-weight: 600;
 }
 signature img {
   display: block;
@@ -114,13 +122,13 @@ footer {
   bottom: 20mm;
   left: 20mm;
   right: 20mm;
+  display: flex;
 }
 footer * {
   font-size: 7pt;
 }
 footer > * {
-  width: 25%;
-  float: left;
+  flex-grow: 1;
 }
 footer > * > * {
   display: block;
