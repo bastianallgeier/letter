@@ -16,16 +16,6 @@
 html {
   background: #efefef;
 }
-@media print {
-  html {
-    background: #fff;
-  }
-  html, body {
-    width: 210mm;
-    height: 100%;
-    overflow: hidden;    
-  }
-}
 [contenteditable]:focus,
 [contenteditable]:hover {
   outline: 2mm solid #daedf0;
@@ -141,4 +131,19 @@ footer label {
 }
 footer address name {
   font-weight: 600;
+}
+
+@media print {
+  html {
+    background: #fff;
+  }
+  html, body {
+    width: 210mm;
+    height: 100%;
+    overflow: hidden;    
+  }
+  [contenteditable] {
+    background: none;
+    outline: 0;
+  }
 }
