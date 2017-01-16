@@ -1,6 +1,6 @@
 # Letter
 
-Letter is a simple, highly customizable generator for single-page letters. 
+Letter is a simple, highly customizable tool to create letters in your browser. 
 
 Instead of messing around in Word, Pages or even Indesign, you can write your letters in the browser, export them as HTML or PDF (via Apple Preview). 
 
