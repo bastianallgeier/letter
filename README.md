@@ -8,13 +8,6 @@ Written in plain HTML, CSS and some PHP, Letter can be installed in seconds and 
 
 You can setup your own letter template and customize the design with CSS. 
 
-## Ideas
-
-- [x] Auto-fill the current date via JS
-- [ ] Support for multiple pages
-- [ ] Store addresses in local storage and auto-fill them
-- [ ] Option to save letters
-
 ## Demo
 
 This is how Letter looks like: https://bastianallgeier.com/projects/letter/
