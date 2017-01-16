@@ -26,7 +26,8 @@ html {
     overflow: hidden;    
   }
 }
-[contenteditable]:focus {
+[contenteditable]:focus,
+[contenteditable]:hover {
   outline: 2mm solid #daedf0;
   background: #daedf0;
 }
