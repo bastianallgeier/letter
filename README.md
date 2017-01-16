@@ -2,6 +2,8 @@
 
 Letter is a simple, highly customizable tool to create letters in your browser. 
 
+![Letter Logo](https://bastianallgeier.com/projects/letter/app/favicon.png)
+
 Instead of messing around in Word, Pages or even Indesign, you can write your letters in the browser, export them as HTML or PDF (via Apple Preview). 
 
 Written in plain HTML, CSS and some PHP, Letter can be installed in seconds and run either on your machine with PHP's built-in server, something like MAMP or on a server. 
