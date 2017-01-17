@@ -6,7 +6,9 @@
         <name><?= $name ?></name>
         <street><?= $street ?></street>
         <city><?= $city ?></city>
+        <?php if(!empty($country)): ?>
         <country><?= $country ?></country>
+        <?php endif ?>
       </from>
       <to contenteditable>
         <?= $placeholders['address'] ?>
@@ -35,7 +37,9 @@
       <name><?= $name ?></name>
       <street><?= $street ?></street>
       <city><?= $city ?></city>
+      <?php if(!empty($country)): ?>
       <country><?= $country ?></country>
+      <?php endif ?>
     </address>
     
     <contact>
