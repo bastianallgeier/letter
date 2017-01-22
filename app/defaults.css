@@ -133,6 +133,66 @@ footer address name {
   font-weight: 600;
 }
 
+selectiontools {
+  padding:0;
+  opacity: 0;
+  margin-left: -9999px;
+  background-color:#222;
+  margin-top: -10px;
+  transition: opacity 180ms 0s ease, margin-top 180ms 0s ease, margin-left 0s 180ms ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  z-index:1000;
+}
+
+selectiontools.active {
+  opacity: 1;
+  margin-left: 4px;
+  margin-top: 0;
+  transition: opacity 240ms 100ms ease;
+}
+
+selectiontools:before {
+  position:absolute;
+  left:-7px;
+  top:32px;
+  content: '';
+  width:0;
+  height:0;
+  border:7px solid transparent;
+  border-left-color:#222;
+  z-index: 10;
+  transform: rotate(-135deg);
+}
+
+selectiontools button {
+  font-size:150%;
+  width:40px;
+  height:40px;
+  line-height: 39px;
+  cursor:pointer;
+  color: white;
+  background: transparent;
+  border:none;
+  z-index: 100;
+  float:left;
+}
+
+selectiontools button * {
+  font: inherit;
+}
+
+selectiontools button em {
+  font-style: italic;
+  font-weight: normal;
+}
+selectiontools button strong {
+  font-weight: bold;
+}
+
+selectiontools button:hover {
+  background-color:#708090;
+}
+
 @media print {
   html {
     background: #fff;
@@ -145,5 +205,9 @@ footer address name {
   [contenteditable] {
     background: none;
     outline: 0;
+  }
+
+  selectiontools {
+    display:none;
   }
 }

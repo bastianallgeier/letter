@@ -114,3 +114,9 @@
 
   </footer>
 </letter>
+
+<selectiontools id="selectiontools">
+  <button id="btn-bold"><strong>B</strong></button>
+  <button id="btn-italic"><em>I</em></button>
+  <script src="app/js/selectiontools.js"></script>
+</selectiontools>
