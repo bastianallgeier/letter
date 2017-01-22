@@ -110,7 +110,7 @@
 		var btnItalic = document.getElementById("btn-italic");
 
 		// Now add the button events
-		btnBold.addEventListener("click", function(event) { 
+		btnBold.addEventListener("mousedown", function(event) { 
 			event.preventDefault(); 
 			event.stopPropagation(); 
 
@@ -121,7 +121,7 @@
 			main.removeAttribute("_moz_resizing");
 		});
 
-		btnItalic.addEventListener("click", function(event) { 
+		btnItalic.addEventListener("mousedown", function(event) { 
 			event.preventDefault(); 
 			event.stopPropagation(); 
 
