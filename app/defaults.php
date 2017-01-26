@@ -2,7 +2,8 @@
 
 return [
   'title'      => 'Letter',
-  'dateFormat' => 'd. F Y',
+  'dateFormat' => '%d. %B %Y',
+  'locale'     => 'en_EN',
   'name'       => 'John Doe',
   'street'     => 'Infinite Loop 12',
   'city'       => '34512 Examplia',

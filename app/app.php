@@ -30,8 +30,11 @@ $signature = __DIR__ . '/../config/signature.png';
 // load all options
 $data = array_replace_recursive(require(__DIR__ . '/defaults.php'), file_exists($config) ? require($config) : []);
 
+// set current locale
+setlocale (LC_ALL, $data['locale']);
+
 // set the current date as default date
-$data['date'] = date($data['dateFormat']);
+$data['date'] = strftime($data['dateFormat']);
 
 // make it nice
 $styles  = file_get_contents(__DIR__ . '/defaults.css');
