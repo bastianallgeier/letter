@@ -16,6 +16,14 @@ This is how Letter looks like: https://bastianallgeier.com/projects/letter/
 
 ## Installation
 
+### Docker
+```
+git clone https://github.com/PascalKu/docker-letter.git
+cd docker-letter
+docker build . -t docker-letter
+docker run -p 80:80 docker-letter
+```
+
 ### PHP's built-in server
 
 ```
